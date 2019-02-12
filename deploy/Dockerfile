@@ -7,4 +7,5 @@ COPY . /code/
 USER root
 RUN chown -R 1001:0 /code
 USER 1001
-RUN cd /code && rm -rf .git
+# Cleanup git related stuff and run composer.
+RUN cd /code && rm -rf .git && composer install
