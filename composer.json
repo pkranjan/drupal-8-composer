@@ -22,7 +22,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.6.8",
         "drupal/ctools": "3.2.0",
-        "drupal/devel": "^1.2",
+        "drupal/devel": "2.1.0",
         "drupal/pathauto": "1.4.0",
         "drupal/token": "^1.5",
         "drush/drush": "^9.0.0",
